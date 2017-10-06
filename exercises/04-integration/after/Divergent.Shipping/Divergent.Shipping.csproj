@@ -112,6 +112,9 @@
     <Compile Include="Config\EndpointConfig.cs" />
     <Compile Include="Sagas\ShippingSaga.cs" />
     <Compile Include="Sagas\ShippingSagaData.cs" />
+    <None Include="NServiceBus.Host.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
